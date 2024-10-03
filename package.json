@@ -1,19 +1,23 @@
 {
-  "name": "hanatbot",
-  "version": "1.0.0",
-  "description": "Discord Bot made by the Hanat Cohort",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brailyguzman/HanatBot.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brailyguzman/HanatBot/issues"
-  },
-  "homepage": "https://github.com/brailyguzman/HanatBot#readme"
+    "name": "hanatbot",
+    "version": "1.0.0",
+    "description": "Discord Bot made by the Hanat Cohort",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brailyguzman/HanatBot.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brailyguzman/HanatBot/issues"
+    },
+    "homepage": "https://github.com/brailyguzman/HanatBot#readme",
+    "dependencies": {
+        "discord.js": "^14.16.3"
+    }
 }
